@@ -1,0 +1,23 @@
+{
+  "name": "xpo-logistics-assistant",
+  "version": "1.0.0",
+  "description": "XPO logistics assistant with speech recognition and NL understanding",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^1.5.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.10",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.4",
+    "watson-developer-cloud": "^3.4.5"
+  }
+}
